@@ -1,6 +1,6 @@
-# Project Title
+# Wi-Fi6 IoT Edge Computing for Healthcare
 
-Put a meaningful, short, plain-language description of what this code is trying to accomplish, what is the business driver for implementation, and in general why it matters. 
+There is a lot of patient data information to collect in the hospital, yet a shortage of nurses is common. Cisco Smart AP provides edge computing capabilities to automate data collection for scenarios like hospitals, saving human resources, improving data accuracy, automating emergency response, and more.
 
 Pro tips: 
 
@@ -18,20 +18,29 @@ Other things you might include:
 
 ## Use Case Description
 
-Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution.
+Business Challenges
+1. It takes extra time on patient info collecting, like blood pressure etc.
+2. There might be mistakes when info is collected manually.
+3. Extra deployment and management with a dedicated IoT network.
 
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running. Call out any dependencies. This should be frequently tested and updated to make sure it works reliably, accounts for updated versions of dependencies, etc.
+Components:
+1. AP 9120 (physical) - Collecting patients info (like blood pressure etc.) and environment info (like temperature humidity etc.)
+2. MySQL (VM) - Store the data that collected by APs.
+3. Grafana (VM) - Data visibility.
+4. Python - Making the Impossible Possible.
 
 ## Configuration
 
 If the code is configurable, describe it in detail, either here or in other documentation that you reference.
+Google is awesome!
 
 ## Usage
 
-Show users how to use the code. Be specific.
+Show users how to use the code. 
 Use appropriate formatting when showing code snippets or command line output.
+Please refer to PPT file.
 
 ### DevNet Sandbox
 
