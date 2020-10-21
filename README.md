@@ -13,7 +13,7 @@ Other things you might include:
 * Status:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where what they can expect from this code.
 * Screenshot: If the code has visual components, place a screenshot after the description; e.g.,
 
-![add-image-here]()
+![Topology]()
 
 
 ## Use Case Description
