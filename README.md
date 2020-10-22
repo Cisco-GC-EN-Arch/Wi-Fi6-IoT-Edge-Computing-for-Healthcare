@@ -31,6 +31,10 @@ Components:
 3. Grafana (VM) - Data visibility.
 4. Python - Making the Impossible Possible.
 
+## How smart AP collects data
+
+![Edge Computing](https://github.com/Cisco-GC-EN-Arch/Wi-Fi6-IoT-Edge-Computing-for-Healthcare/blob/main/AP%20PY%20code.PNG)
+
 ## Configuration
 
 Google is awesome!
