@@ -33,7 +33,8 @@ Components:
 
 ## How smart AP collects data
 
-![Edge_Computing](https://github.com/Cisco-GC-EN-Arch/Wi-Fi6-IoT-Edge-Computing-for-Healthcare/blob/main/AP%20PY%20code.PNG)
+[file] data_collection.py - Python script running in WIFI6 AP to collect data.
+[file] data_analysis.py - Python script running in analysis server to filter data and store the useful data to MySQL.
 
 ## Configuration
 
