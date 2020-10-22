@@ -38,8 +38,8 @@ Components:
 
 ## Configuration
 
-Google is awesome!
-If the code is configurable, describe it in detail, either here or in other documentation that you reference.
+  Google is awesome!     
+  If the code is configurable, describe it in detail, either here or in other documentation that you reference.
 
 ## Usage
 
