@@ -33,25 +33,12 @@ Components:
 
 ## Configuration
 
-If the code is configurable, describe it in detail, either here or in other documentation that you reference.
 Google is awesome!
+If the code is configurable, describe it in detail, either here or in other documentation that you reference.
 
 ## Usage
 
-Show users how to use the code. 
-Use appropriate formatting when showing code snippets or command line output.
 Please refer to PPT file.
-
-### DevNet Sandbox
-
-A great way to make your repo easy for others to use is to provide a link to a [DevNet Sandbox](https://developer.cisco.com/site/sandbox/) that provides a network or other resources required to use this code. In addition to identifying an appropriate sandbox, be sure to provide instructions and any configuration necessary to run your code with the sandbox.
-
-## How to test the software
-
-Provide details on steps to test, versions of components/dependencies against which code was tested, date the code was last tested, etc. 
-If the repo includes automated tests, detail how to run those tests.
-If the repo is instrumented with a continuous testing framework, that is even better.
-
 
 ## Known issues
 
