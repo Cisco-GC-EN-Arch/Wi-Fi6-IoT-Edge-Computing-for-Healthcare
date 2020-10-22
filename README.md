@@ -31,10 +31,10 @@ Components:
 3. Grafana (VM) - Data visibility.
 4. Python - Making the Impossible Possible.
 
-## How smart AP collects data
+## Files instruction
 
-[file] data_collection.py - Python script running in WIFI6 AP to collect data.
-[file] data_analysis.py - Python script running in analysis server to filter data and store the useful data to MySQL.
+1. [file] data_collection.py - Python script running in WIFI6 AP to collect data.
+2. [file] data_analysis.py - Python script running in analysis server to filter data and store the useful data to MySQL.
 
 ## Configuration
 
