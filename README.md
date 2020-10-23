@@ -32,16 +32,14 @@ Components:
 
 ## MySQL Configuration
 
-Some useful commands for MySQL:</br>
-&nbsp;&nbsp;&nbsp;&nbsp;List all database: mysql>show databases;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Create database: mysql>create database <your database name>;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Select database: mysql>use <your database name>;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;List all tables in selected database: mysql>show tables;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Create table: mysql>create table <your table name> (column1_name column1_type, column2_name column2_type, ... )</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Check details of a table: mysql>show create table <your table name>;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Select table: mysql>desc <your table name>;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Delete a table: mysql>drop table <your table name>;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Google is awesome!
+1. Create database: mysql>create database wifi6_edge_computing;
+2. Select database: mysql>use wifi6_edge_computing;
+3. Create table: mysql>CREATE TABLE t_h_test(update_time timestamp DEFAULT CURRENT_TIMESTAMP,
+    -> temperature float(10,2) NOT NULL,
+    -> humidity float(10,2) NOT NULL,
+    -> PRIMARY KEY (update_time))ENGINE=InnoDB DEFAULT CHARSET=utf8;
+4. Select table: mysql>desc t_h_test;
+We are going to use the database named wifi6_edge_computing and the tables named t_h_test with columns update_time(PRIMARY KEY), temperature and humidity.
 
 ## Known issues
 
