@@ -39,7 +39,7 @@ Components:
     -> humidity float(10,2) NOT NULL,
     -> PRIMARY KEY (update_time))ENGINE=InnoDB DEFAULT CHARSET=utf8;
 4. Select table: mysql>desc t_h_test;
-We are going to use the database named wifi6_edge_computing and the tables named t_h_test with columns update_time(PRIMARY KEY), temperature and humidity.
+</br>We are going to use the database named wifi6_edge_computing and the tables named t_h_test with columns update_time(PRIMARY KEY), temperature and humidity.
 
 ## Known issues
 
