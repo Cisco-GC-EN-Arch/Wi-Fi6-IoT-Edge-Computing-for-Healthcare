@@ -22,17 +22,26 @@ Components:
 
 ## Files instruction
 
-1. [file] data_collection.py - Python script running in WIFI6 AP to collect data.
-2. [file] data_analysis.py - Python script running in analysis server to filter data and store the useful data to MySQL.
+1)git clone https://github.com/Cisco-GC-EN-Arch/Wi-Fi6-IoT-Edge-Computing-for-Healthcare.git
+2)cd Wi-Fi6-IoT-Edge-Computing-for-Healthcare
+3)pip install requirements.txt
+4)py data_collection.py 
+  This Python script is running in WIFI6 AP to collect data.
+5)py data_analysis.py
+  This Python script is running in analysis server to filter data and store the useful data to MySQL.
 
-## Configuration
+## MySQL Configuration
 
+Some useful commands for MySQL:
+  List all database: mysql>show databases;
+  Create database: mysql>create database <your database name>;
+  Select database: mysql>use <your database name>;
+  List all tables in selected database: mysql>show tables;
+  Create table: mysql>create table <your table name> (column1_name column1_type, column2_name column2_type, ... )
+  Check details of a table: mysql>show create table <your table name>;
+  Select table: mysql>desc <your table name>;
+  Delete a table: mysql>drop table <your table name>;
   Google is awesome!     
-  If the code is configurable, describe it in detail, either here or in other documentation that you reference.
-
-## Usage
-
-Please refer to PPT file.
 
 ## Known issues
 
