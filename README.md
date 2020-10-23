@@ -33,15 +33,15 @@ Components:
 ## MySQL Configuration
 
 Some useful commands for MySQL:</br>
-  List all database: mysql>show databases;</br>
-  Create database: mysql>create database <your database name>;</br>
-  Select database: mysql>use <your database name>;</br>
-  List all tables in selected database: mysql>show tables;</br>
-  Create table: mysql>create table <your table name> (column1_name column1_type, column2_name column2_type, ... )</br>
-  Check details of a table: mysql>show create table <your table name>;</br>
-  Select table: mysql>desc <your table name>;</br>
-  Delete a table: mysql>drop table <your table name>;</br>
-  Google is awesome!
+  <tab>List all database: mysql>show databases;</br>
+  <tab>Create database: mysql>create database <your database name>;</br>
+  <tab>Select database: mysql>use <your database name>;</br>
+  <tab>List all tables in selected database: mysql>show tables;</br>
+  <tab>Create table: mysql>create table <your table name> (column1_name column1_type, column2_name column2_type, ... )</br>
+  <tab>Check details of a table: mysql>show create table <your table name>;</br>
+  <tab>Select table: mysql>desc <your table name>;</br>
+  <tab>Delete a table: mysql>drop table <your table name>;</br>
+  <tab>Google is awesome!
 
 ## Known issues
 
