@@ -28,9 +28,9 @@ def split_data(contents):
     return(splited_data)
 
 def mysql_insert(temperature, humidity):
-    conn = mysql.connector.connect(user='username', password='password', database='your_database')
+    conn = mysql.connector.connect(user='username', password='password', database='wifi6_edge_computing')
     cursor = conn.cursor()
-    cursor.execute('insert into your_table (temperature, humidity) values (%s, %s)', [str(temperature), str(humidity)])
+    cursor.execute('insert into t_h_test (temperature, humidity) values (%s, %s)', [str(temperature), str(humidity)])
     conn.commit()
     cursor.close()
     conn.close()
