@@ -22,12 +22,12 @@ Components:
 
 ## Files instruction
 
-1)git clone https://github.com/Cisco-GC-EN-Arch/Wi-Fi6-IoT-Edge-Computing-for-Healthcare.git
-2)cd Wi-Fi6-IoT-Edge-Computing-for-Healthcare
-3)pip install requirements.txt
-4)py data_collection.py 
+1. git clone https://github.com/Cisco-GC-EN-Arch/Wi-Fi6-IoT-Edge-Computing-for-Healthcare.git
+2. cd Wi-Fi6-IoT-Edge-Computing-for-Healthcare
+3. pip install requirements.txt
+4. py data_collection.py 
   This Python script is running in WIFI6 AP to collect data.
-5)py data_analysis.py
+5. py data_analysis.py
   This Python script is running in analysis server to filter data and store the useful data to MySQL.
 
 ## MySQL Configuration
